@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="skript.js" defer></script>
+</head>
+<body>
+	<form>
+	<div id="sf"></div>
+    <fieldset id="fsSpecial">
+		<legend> Einstellungen </legend>
+		Kartengröße
+		<input type="range" name="Slider" min="0" max="1" step="0.1" value="0" />
+		<hr />
+        Hintergrundfarbe
+		<input type="color" name="Color" placeholder="red" id="color" value="#ff0000">
+		<hr />
+        Farbe Kartenrückseite
+		<input type="color" name="Color" placeholder="red" id="color" value="#ff0000">
+		<hr />
+        Schriftfarbe
+		<input type="color" name="Color" placeholder="red" id="color" value="#ff0000">
+		<hr />
+        <input type="radio" name="Radiogroup" value="radio1" id="radio1" />
+		<label for="radio1">Arial</label>
+		<input type="radio" name="Radiogroup" value="radio2" id="radio2" />
+		<label for="radio2">Calibri</label>
+		<input type="radio" name="Radiogroup" value="radio3" id="radio3" />
+		<label for="radio3">New Times Roman</label>
+		<hr />
+        Timer in Sekunden
+		<input type="number" name="Stepper" step="15" min="15" max="60" value="0" />
+		<hr />
+        Wort
+		<input type="text" name="Text" id="eingabefeld" placeholder="type here" required />
+		<hr />
+        <button type="button">Start</button>
+    
+    </fieldset>
+</form>
+    
+</body>
+</html>
