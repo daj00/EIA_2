@@ -1,3 +1,6 @@
+//Zusammenarbeit mit Eileen Harr
+
+
 namespace goldenerHerbst {
     interface Vector {
         x: number;

@@ -1,4 +1,5 @@
 "use strict";
+//Zusammenarbeit mit Eileen Harr
 var goldenerHerbst;
 (function (goldenerHerbst) {
     window.addEventListener("load", handleLoad);
