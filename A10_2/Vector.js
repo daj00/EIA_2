@@ -1,4 +1,4 @@
-/*Zusammenarbeit mit Verena Rothweiler und Neslisah Koc */
+
 
 "use strict";
 var L10_2_GoldenerHerbstPolymorphie;
